@@ -1,0 +1,19 @@
+UNF
+(personnel number,name,date of birth,lab code, lab name, research code
+,research description,research supervisor)
+
+
+1NF
+(personnel number,name,date of birth, research code,
+ research description,research supervisor)
+(lab name,lab code)
+
+PK are personnel number and lab code
+
+
+2NF
+=1NF
+
+
+3NF
+=2NF
